@@ -1,0 +1,4 @@
+{
+  "name": "bun-crud-mahasiswa",
+  "dependencies": { "mysql2": "^3.11.0" }
+}

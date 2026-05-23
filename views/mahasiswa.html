@@ -1,0 +1,15 @@
+{{flash}}
+<div class="flex items-center justify-between mb-4">
+  <h2 class="text-xl font-bold">Data Mahasiswa</h2>
+  <a href="/tambah" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">+ Tambah</a>
+</div>
+<div class="bg-white rounded shadow overflow-hidden">
+  <table class="table-auto w-full">
+    <thead><tr class="bg-gray-200">
+      <th class="p-3 text-left">No</th><th class="p-3 text-left">Nama</th>
+      <th class="p-3 text-left">Jurusan</th><th class="p-3 text-left">Angkatan</th>
+      <th class="p-3 text-center">Aksi</th>
+    </tr></thead>
+    <tbody>{{rows}}</tbody>
+  </table>
+</div>

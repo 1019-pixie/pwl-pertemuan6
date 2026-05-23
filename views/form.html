@@ -1,0 +1,25 @@
+<div class="mb-4"><a href="/" class="text-blue-500">← Kembali</a></div>
+<h2 class="text-xl font-bold mb-4">{{judul}}</h2>
+<div class="bg-white p-6 rounded shadow max-w-md">
+  <form method="POST" action="{{action}}">
+    <div class="mb-4">
+      <label class="block text-sm font-medium mb-1">Nama</label>
+      <input type="text" name="nama" value="{{nama}}" required
+        class="border rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-300">
+    </div>
+    <div class="mb-4">
+      <label class="block text-sm font-medium mb-1">Jurusan</label>
+      <input type="text" name="jurusan" value="{{jurusan}}" required
+        class="border rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-300">
+    </div>
+    <div class="mb-5">
+      <label class="block text-sm font-medium mb-1">Angkatan</label>
+      <input type="number" name="angkatan" value="{{angkatan}}" required
+        class="border rounded px-3 py-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-300">
+    </div>
+    <div class="flex gap-3">
+      <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded">Simpan</button>
+      <a href="/" class="bg-gray-200 hover:bg-gray-300 text-gray-700 px-5 py-2 rounded">Batal</a>
+    </div>
+  </form>
+</div>
